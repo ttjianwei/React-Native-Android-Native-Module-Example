@@ -9,8 +9,8 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 var ReactNative = require('react-native');
-var ToastAndroid = require('NativeModules').ToastAndroidTutorial;
-//import ToastExample from './ToastExample';
+//var ToastAndroid = require('NativeModules').ToastAndroidTutorial;
+import ToastExample from './ToastExample';
 
 
 const instructions = Platform.select({
